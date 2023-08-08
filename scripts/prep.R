@@ -38,10 +38,12 @@ emissions <- emissions_raw %>%
          waste = waste_and_waste_water,
          total = greenhouse_gas_emissions_total_15)
 
+toJSON(emissions)
+
 
 # Export ------------------------------------------------------------------
 
-write_json(toJSON(emissions),
+write_json(emissions,
            here("svelte", "src", "lib", "data", "emissions.json"))
 
   
