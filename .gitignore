@@ -13,3 +13,4 @@
 /svelte/.env.*
 /svelte/.env.example
 /svelte/vite.config.js.timestamp-*
+/svelte/src/lib/data
