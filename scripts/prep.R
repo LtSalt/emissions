@@ -41,8 +41,8 @@ emissions <- emissions_raw %>%
 
 # Export ------------------------------------------------------------------
 
-write_excel_csv(toJSON(emissions),
-                here())
+write_json(toJSON(emissions),
+           here("svelte", "src", "lib", "data", "emissions.json"))
 
   
   
