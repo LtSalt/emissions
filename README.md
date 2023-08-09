@@ -9,7 +9,3 @@ Data comes from the [Umweltbundesamt](https://www.umweltbundesamt.de/daten/umwel
 ## TODO
 - check out community alternative to svelte feather icons
 - slider
-- area chart
-  - plot total area
-  - split into sectors
-- mosaic chart
